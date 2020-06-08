@@ -13,4 +13,4 @@ management:
       exposure:
         include: "*"
 example:
-  property: 'example property'
+  property: 'example property changed'
