@@ -1,0 +1,24 @@
+spring:
+  jpa:
+    database: "POSTGRESQL"
+    show-sql: true
+  datasource:
+    platform: "postgres"
+    url: "jdbc:postgresql://localhost:5432/eagle_eye_local"
+    username: postgres
+    password: zhang123
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+example:
+  property: 'example property changed'
+server:
+  port: 0
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
