@@ -14,3 +14,11 @@ management:
         include: "*"
 example:
   property: 'example property changed'
+server:
+  port: 0
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
