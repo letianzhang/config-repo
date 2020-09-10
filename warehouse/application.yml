@@ -1,0 +1,11 @@
+mybatis-plus:
+  type-aliases-package: com.example.demo.entity
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+spring:
+  application:
+    name: warehouse
+  profiles:
+    active: dev
+server:
+  port: 0
